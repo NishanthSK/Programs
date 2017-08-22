@@ -24,17 +24,17 @@ namespace ConsoleApplication1
             Console.WriteLine();
             q.Enqueue('e');
             q.Enqueue('f');
-            Console.WriteLine("Current Elements in queue after added elements");
+            Console.WriteLine("Current Elements in Queue after added elements");
             foreach (char c in q)
             {
                 Console.Write(c + " ");
             }
             Console.WriteLine();
             char x = (char)q.Dequeue();
-            Console.WriteLine($"The first character in Queue removed is {x}");
+            Console.WriteLine($"The First Character in Queue removed is {x}");
             char y = (char)q.Dequeue();
-            Console.WriteLine($"The second character in Queue removed is {y}");
-            Console.WriteLine("Current elements queue after removed elements");
+            Console.WriteLine($"The Second Character in Queue removed is {y}");
+            Console.WriteLine("Current Elements Queue after removed elements");
             foreach (char c in q)
             {
                 Console.Write(c + " ");

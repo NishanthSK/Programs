@@ -16,7 +16,7 @@ namespace ConsoleApplication1
             q.Enqueue('b');
             q.Enqueue('c');
             q.Enqueue('d');
-            Console.WriteLine("Current Elements in the Queue is");
+            Console.WriteLine("Current Elements Present in the Queue is");
             foreach (char c in q)
             {
                 Console.Write(c + " ");

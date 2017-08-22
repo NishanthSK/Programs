@@ -8,7 +8,8 @@ namespace ConsoleApplication59
     class Program
     {
         static double getVal()
-        { return 3.14;
+        { 
+            return 3.14;
         }
             static void Main(string[] args)
         {

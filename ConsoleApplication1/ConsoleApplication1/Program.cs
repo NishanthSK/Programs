@@ -11,7 +11,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Queue q = new Queue(int a);
+            Queue q = new Queue();
             q.Enqueue('a');
             q.Enqueue('b');
             q.Enqueue('c');

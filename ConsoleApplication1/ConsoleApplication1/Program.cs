@@ -40,7 +40,7 @@ namespace ConsoleApplication1
                 Console.Write(c + " ");
             }
             Console.WriteLine();
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }

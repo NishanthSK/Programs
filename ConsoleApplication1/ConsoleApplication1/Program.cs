@@ -1,4 +1,4 @@
-  ﻿using System;
+﻿  ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,7 +34,7 @@ namespace ConsoleApplication1
             Console.WriteLine($"The first character in Queue removed is {x}");
             char y = (char)q.Dequeue();
             Console.WriteLine($"The second character in Queue removed is {y}");
-            Console.WriteLine("Current queue after removed elements");
+            Console.WriteLine("Current elements queue after removed elements");
             foreach (char c in q)
             {
                 Console.Write(c + " ");

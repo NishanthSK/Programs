@@ -16,7 +16,7 @@ namespace ConsoleApplication1
             q.Enqueue('b');
             q.Enqueue('c');
             q.Enqueue('d');
-            Console.WriteLine("Current Elements Present in the Queue is");
+            Console.WriteLine("Current Characters Present in the Queue is");
             foreach (char c in q)
             {
                 Console.Write(c + " ");
@@ -24,7 +24,7 @@ namespace ConsoleApplication1
             Console.WriteLine();
             q.Enqueue('e');
             q.Enqueue('f');
-            Console.WriteLine("Current Elements in Queue after added elements");
+            Console.WriteLine("Current Characters in Queue after added elements");
             foreach (char c in q)
             {
                 Console.Write(c + " ");
@@ -35,7 +35,7 @@ namespace ConsoleApplication1
             char y = (char)q.Dequeue();
             Console.WriteLine();
             Console.WriteLine($"The Second Character in Queue removed is {y}");
-            Console.WriteLine("Current Elements Queue after removed elements");
+            Console.WriteLine("Current Characters Queue after removed elements");
             foreach (char c in q)
             {
                 Console.Write(c + " ");

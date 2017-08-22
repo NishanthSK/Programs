@@ -33,6 +33,7 @@ namespace ConsoleApplication1
             char x = (char)q.Dequeue();
             Console.WriteLine($"The First Character in Queue removed is {x}");
             char y = (char)q.Dequeue();
+            Console.WriteLine();
             Console.WriteLine($"The Second Character in Queue removed is {y}");
             Console.WriteLine("Current Elements Queue after removed elements");
             foreach (char c in q)
